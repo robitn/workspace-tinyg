@@ -147,9 +147,9 @@ cpdefine("inline:com-chilipeppr-workspace-robitn-tinyg", ["chilipeppr_ready"], f
                         spjs.setSingleSelectMode();
                         spjs.init({
                             isSingleSelectMode: true,
-                            defaultBuffer: "robitn-tinyg",
+                            defaultBuffer: "tinyg",
                             defaultBaud: 115200,
-                            bufferEncouragementMsg: 'For your device please choose the "robitn-tinyg" or "robitn-tinygg2" buffer in the pulldown and a 115200 baud rate before connecting.'
+                            bufferEncouragementMsg: 'For your device please choose the "tinyg" or "tinygg2" buffer in the pulldown and a 115200 baud rate before connecting.'
                         });
                         //spjs.showBody();
                         //spjs.consoleToggle();
